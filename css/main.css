@@ -150,6 +150,12 @@ input, textarea {
     height: 200px;
 }
 
+#styles-hero {
+    background: url(../images/hero_room.jpg) no-repeat;
+    height: 200px;
+}
+
+
 /* Form */
 
 #newsletter-form form {
