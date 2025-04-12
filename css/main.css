@@ -102,7 +102,7 @@ input, textarea {
     height: 67px;
 }
 
-#hero-heading-box {
+.hero-heading-box {
     align-self: end;
 }
 
@@ -122,8 +122,95 @@ input, textarea {
     border-top: solid 3px #9a2018;
 }
 
-#hero-summary p {
+.hero-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
+}
+
+#pool {
+    background: url(../images/pool_about.png);
+    height: 200px;
+}
+
+.list ul li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+#gym {
+    background: url(../images/gym_about.png) no-repeat;
+    height: 200px;
+}
+
+#gallery {
+    background: url(../images/gallery_about.png) no-repeat;
+    height: 200px;
+}
+
+/* Form */
+
+#newsletter-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter-form input {
+    padding: 22px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: auto;
+    cursor: pointer;
+}
+
+#newsletter-form input[type="submit"] {
+    padding: 12px 28px;
+    background: transparent;
+    color: #9a2018;
+    border: 1px solid #9a2018;
+    background-size: 0;
+    transition: all 0.5s;
+    width: 150px;
+    align-self: flex-end;
+}
+
+#newsletter-form input[type="submit"]:hover {
+    background-image: linear-gradient(0, #9a2018, #9a2018);
+    background-size: 100%;
+    color: #fff;
+}
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+#footer-privacy .line-separator {
+    margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+    font-size: 23px;
+}
+
+#footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
 }
