@@ -155,6 +155,86 @@ input, textarea {
     height: 200px;
 }
 
+#chateaus {
+    background: url(../images/chateau_room.png) no-repeat;
+    height: 200px;
+}
+
+#villas {
+    background: url(../images/villas_room.png) no-repeat;
+    height: 200px;
+}
+
+#masters {
+    background: url(../images/masters_room.png) no-repeat;
+    height: 200px;
+}
+
+#chalet {
+    background: url(../images/chalet_room.png) no-repeat;
+    height: 200px;
+}
+
+#exotics {
+    background: url(../images/exotics_room.png) no-repeat;
+    height: 200px;
+}
+
+#juniors {
+    background: url(../images/juniors_room.png) no-repeat;
+    height: 200px;
+}
+
+#algonquin {
+    background: url(../images/moose.jpg) no-repeat;
+    height: 200px;
+}
+
+#waterfall {
+    background: url(../images/waterfall.png) no-repeat;
+    height: 200px;
+}
+
+#fishing {
+    background: url(../images/fishing_activities.jpg) no-repeat;
+    height: 200px;
+}
+
+#galeairy {
+    background: url(../images/pano.png) no-repeat;
+    height: 200px;
+}
+
+.room-list ul li {
+    font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 28px;
+    background: transparent;
+    color: #9a2018;
+    border: 1px solid #9a2018;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: auto;
+    cursor: pointer;
+    background-size: 0;
+    transition: all 0.5s;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.button:hover {
+    background-image: linear-gradient(0, #9a2018, #9a2018);
+    background-size: 100%;
+    color: #fff;
+}
 
 /* Form */
 
