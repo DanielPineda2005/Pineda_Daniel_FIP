@@ -272,6 +272,24 @@ input, textarea {
     color: #fff;
 }
 
+#newsletter-form input[type="checkbox"] + span::after {
+    content: '\2764';
+    padding: 5px;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    color: #9a2018;
+    transition: ease-in-out .5s;
+}
+
+#newsletter-form input[type="checkbox"]:checked + span::after {
+    opacity: 1;
+}
+
+
+
+/* Footer */
+
 #footer-hero {
     background-image: url(../images/footer.jpg);
     background-repeat: no-repeat;
